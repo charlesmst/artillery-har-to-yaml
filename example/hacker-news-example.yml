@@ -1,0 +1,72 @@
+config:
+  phases:
+  - arrivalRate: 1
+    duration: 10
+  target: https://interpreterbook.com
+scenarios:
+- flow:
+  - get:
+      url: /
+  - get:
+      url: /
+  - think: 0.874
+  - get:
+      url: /favicon.ico
+  - think: 10.365
+  - get:
+      url: /twitter/mitchellh/small
+  - get:
+      url: /twitter/felixge/small
+  - get:
+      url: /twitter/fxn/small
+  - get:
+      url: /twitter/fabrik42/small
+  - get:
+      url: /twitter/jboursiquot/small
+  - get:
+      url: /twitter/rmehner/small
+  - get:
+      url: /twitter/bdowns328/small
+  - get:
+      url: /twitter/robertgravina/small
+  - get:
+      url: /twitter/insp3ctre/small
+  - get:
+      url: /twitter/ludviggislason/small
+  - get:
+      url: /twitter/markbates/small
+  - get:
+      url: /twitter/pauldix/small
+  - get:
+      url: /img/author-25e23738.jpg
+  - think: 0.687
+  - get:
+      query:
+        _gid: '1413221274.1574688243'
+        _r: '1'
+        _s: '1'
+        _u: IEBAAEAB~
+        _v: j79
+        a: '1373003880'
+        cid: '838774974.1574688243'
+        de: UTF-8
+        dl: https%3A%2F%2Finterpreterbook.com%2F
+        dr: https%3A%2F%2Fnews.ycombinator.com%2F
+        dt: Writing%20An%20Interpreter%20In%20Go%20%7C%20Thorsten%20Ball
+        gjid: '2046955134'
+        je: '0'
+        jid: '344727610'
+        sd: 24-bit
+        sr: 1920x1080
+        t: pageview
+        tid: UA-84565964-1
+        ul: pt-br
+        v: '1'
+        vp: 1903x969
+        z: '2141125858'
+      url: /r/collect
+  - think: 0.562
+  - get:
+      url: /static/default_48.jpg
+  - get:
+      url: /favicon.ico
