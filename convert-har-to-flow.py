@@ -53,7 +53,7 @@ def convert(input_har,output_yrml):
             queries = {}
             for query_string in query_strings:
                 queries[query_string["name"]] = query_string["value"]
-            item_data["query"] = queries
+            item_data["qs"] = queries
         cenario.append(item) 
 
     with open(output_yrml, 'w') as file:
